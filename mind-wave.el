@@ -194,7 +194,7 @@
   "Name of Mind-Wave buffer."
   :type 'string)
 
-(defcustom lsp-bridge-python-command "${python3.interpreter}"
+(defcustom lsp-bridge-python-command "${pkgs.python3.interpreter}"
   "The Python interpreter used to run mind_wave.py."
   :type 'string)
 
