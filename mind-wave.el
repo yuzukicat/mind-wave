@@ -194,7 +194,7 @@
   "Name of Mind-Wave buffer."
   :type 'string)
 
-(defcustom mind-wave-python-command (if (memq system-type '(cygwin windows-nt ms-dos)) "python.exe" "python3")
+(defcustom lsp-bridge-python-command "${python.interpreter}"
   "The Python interpreter used to run mind_wave.py."
   :type 'string)
 
